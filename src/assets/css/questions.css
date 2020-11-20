@@ -1,0 +1,29 @@
+.Row{
+  min-height: 100vh;
+}
+.FooterRaw{
+  flex-shrink: 1;
+  flex-grow: 0;
+  align-items: flex-end;
+}
+.MainContainer2 {
+  top: 0;
+  left: 30%;
+  flex-shrink: 0;
+}
+.faqWrapper {
+  margin-left: 28%;
+  max-width: 530px;
+  box-shadow: 0 5px 15px rgba(94,86,86,.2);
+}
+.rowQuestion {
+  text-align: center;
+}
+
+.MainTitle {
+  font-size: 35px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+

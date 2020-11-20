@@ -1,0 +1,53 @@
+.ReviewContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+.MainReviewWrapper{
+    margin-top: 50px;
+    border-bottom: 2px solid rgba(180,180,180,0.5);
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ReviewIcon{
+    color: #06f;
+    margin-bottom: 10px;
+}
+.ReviewUserName{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 700;
+}
+.ReviewRating{
+    margin-bottom: 10px;
+    display: flex;
+}
+.ReviewRating p{
+    color: #ffb300;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.ReviewUserMessage{
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.ReviewsMain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.DateInfo{
+    font-size: 15px;
+    color: #c3c3c3; 
+    line-height: 27px;
+    
+}

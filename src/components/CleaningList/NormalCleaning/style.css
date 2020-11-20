@@ -1,0 +1,65 @@
+.c2 {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 35ch;
+  height: 35ch;
+  cursor: pointer;
+  will-change: transform, opacity;
+  left: 160%;
+}
+.c2 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.front2,
+.back2 {
+  background-size: cover;
+}
+
+.front2 {
+  background-color: #c8c8c8;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  color: #000;
+}
+
+.back2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url(../../../assets/img/services/cleaning-supply-bucket-in-kitchen.jpg);
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.MainText2 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 25px;
+  color: #fff;
+}
+.article-content2 {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: #fff !important;
+}
+.article-title2 {
+  margin-bottom: 10px;
+}
+.article-info2 {
+  display: inline-flex;
+  align-items: center;
+}
+.article-info2,
+ul,
+li {
+  color: #fff !important;
+}
+.MuiSvgIcon-root2 {
+  margin-right: 5px;
+  font-size: 1em;
+}

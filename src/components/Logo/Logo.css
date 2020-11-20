@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 55px;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}

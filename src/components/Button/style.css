@@ -1,0 +1,82 @@
+.container1 {
+  align-items: flex-end;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.4;
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 45px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 235px;
+  margin-top: 10px;
+}
+
+.btn-1 {
+  background: #ffb600;
+}
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.btn-1 rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  transition-duration: 0.6s;
+}
+
+.btn-1:hover {
+  background: rgba(225, 51, 45, 0);
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.btn-1:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  -webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.modal-title {
+  font-weight: 900;
+  line-height: normal;
+  font-size: 18px;
+  color: #2b2b2b;
+  margin-bottom: 16px;
+  padding: 0 20px;
+}
+.modal-description{
+  font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.paper-modal{
+  height: 60vh;
+  width: 40%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: darkgray;
+  outline: none !important;
+}

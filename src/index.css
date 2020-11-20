@@ -1,0 +1,229 @@
+::selection {
+  color: #fff;
+  background: #4b4b4b;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@media (max-width: 767px) {
+  .text-container {
+    margin-top: 175px !important;
+  }
+  .text-container h1 {
+    font-weight: 900 !important;
+    font-size: 22px !important;
+    text-align: center !important;
+    margin-top: 3px !important;
+  }
+  .text-container h4 {
+    font-weight: 900 !important;
+    font-size: 23px !important;
+    text-align: center !important;
+  }
+  
+  .MuiSvgIcon-root {
+    font-size: 40px !important;
+  }
+  .MuiIconButton-root {
+    padding: 0px !important;
+  }
+  .react-modal-body-close {
+    top: 22px !important;
+    right: 70px !important;
+  }
+  .MainAnimateText {
+    margin-left: 15px !important;
+  }
+  .buttons {
+    margin-top: 25px !important;
+    margin-left: 35px !important;
+  }
+  .ModalTitel {
+    font-size: 35px !important;
+  }
+  .transitions-item {
+    font-size: 4em !important;
+  }
+  .TwentyContainer {
+    flex-direction: column !important;
+  }
+  .container {
+    width: 100% !important;
+    flex-flow: wrap !important;
+    margin: 0 !important;
+  }
+  .MainTitle h3 {
+    font-size: 40px !important;
+    text-align: center;
+  }
+  .FooterLinks {
+    text-align: center;
+  }
+  
+  .Article--micro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .FooterText {
+    margin-left: 0 !important;
+  }
+  .TwentyWrap {
+    margin-top: 20px;
+  }
+  .MainBar {
+    position: relative !important;
+  }
+  .faqWrapper {
+    margin-left: 0% !important;
+    max-width: 100% !important;
+  }
+  .MainContainer4 {
+    height: auto !important;
+  }
+  .ContactsCard {
+    width: 96% !important;
+  }
+  .ContactsContainer .ContactBar .MuiSvgIcon-root {
+    font-size: 8.5rem !important;
+  }
+  .ReviewFormField {
+    flex-direction: column;
+    margin-left: 35px;
+  }
+  .material-input,
+  .material-textarea {
+    margin-left: 35px !important;
+  }
+  .material-input label,
+  .material-input input,
+  .material-input textarea,
+  .material-input .error,
+  .material-textarea label,
+  .material-textarea input,
+  .material-textarea textarea,
+  .material-textarea .error {
+    width: 90% !important;
+  }
+  .FooterWrapContainer {
+    margin-top: 0 !important;
+  }
+  .RationWrap {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .paper-modal {
+    width: 95% !important;
+  }
+  .footer-contact-widget {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .ReviewRating p {
+    font-size: 30px !important;
+  }
+  .CardMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .CardItem {
+    margin-top: 20px !important;
+  }
+  .flippy-container {
+    width: 260px !important;
+  }
+  .MainContainer1 {
+    margin-left: 0 !important;
+  }
+  .MainTitleTextServices h1 {
+    font-size: 48px !important;
+    margin-left: 0 !important;
+  }
+  .banner{
+    top:-113px;
+    height: 100vh !important; 
+  }
+  .CardItem{
+    /* margin-left: 0 !important; */
+  }
+  .card-modal{
+    width: 100% !important;  
+  }
+  .playerContainer{
+    width: 80% !important; 
+  }
+  .LightBoxContainer img{
+    margin-right: 0 !important;
+    margin-top: 15px;
+  }
+  .LightBoxContainer {
+    flex-direction: column !important;
+  }
+  .TwentyWrap {
+    margin-top: 15px !important;
+  }
+  .MainBar {
+    position: relative !important; 
+  }
+}
+
+@media (min-width: 535px) and (max-width: 763) {
+  .CardMenu{
+    margin-right: 15px !important ; 
+  }
+  .TwentyWrap {
+    margin-top: 15px !important;
+  }
+  .LightBoxContainer img{
+    margin-right: 0 !important;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1145px) {
+  .MainTitle h3 {
+    text-align: center;
+    width: 100%;
+  }
+  /* .MainBar {
+    position: relative !important; 
+  } */
+  .TwentyContainer {
+    flex-direction: column;
+  }
+  .LightBoxContainer{
+    flex-direction: column;
+  }
+  .LightBoxContainer img{
+    margin-right: 0 !important;
+    margin-top: 15px;
+  }
+  .TwentyWrap {
+    margin-top: 15px !important;
+  }
+}
+@media (max-width:330px) {
+  .text-container{
+    margin-top: 230px !important;
+  }
+}
+

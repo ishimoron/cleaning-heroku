@@ -1,0 +1,11 @@
+.MainContainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+img{
+    transition: all .2s ease-in-out !important; 
+}
+img:hover{
+    transform: scale(1.1) !important;
+}

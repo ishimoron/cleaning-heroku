@@ -1,0 +1,15 @@
+.ServicesContainer {
+  display: flex;
+  /* flex-flow: column; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.ServicesBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.CardItem {
+  margin-top: 15px;
+}

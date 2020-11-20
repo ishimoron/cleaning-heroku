@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap");
+
+.MainContainer1 {
+  display: flex;
+  flex-flow: column;
+  flex:auto;
+}
+.MainContainer{
+  height: 85vh;
+}
+.MainTitleTextServices h1 {
+  font-size: 60px;
+  color: #2b2b2b;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  margin-left: 20px;
+  text-align: center;
+}
+.Row1 {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+}
+.CardMenu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.CardItem{
+  margin-left: 20px;
+}
+.article-content{
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: #fff !important;
+}
+.article-title{
+  margin-bottom: 10px;
+}
+.article-info{
+  display: inline-flex;
+  align-items: center;
+}
+.article-info, ul, li{ 
+  color: #fff !important; 
+}
+

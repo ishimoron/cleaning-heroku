@@ -1,0 +1,16 @@
+.transitions-item {
+  z-index: 1;
+  overflow: hidden;
+  width: 95%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 80px;
+}
